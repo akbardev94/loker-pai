@@ -1,0 +1,130 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: slategray;
+    color: #383838;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.header ul li {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.pisah{
+    float: right;
+}
+
+.header a{
+    text-decoration: none;
+    color: #383838;
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.content {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.footer{
+    background-color: white;
+    padding: 2px;
+}
+
+.footer .copy {
+    color: #383838;
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+ }
+ .table th, .table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+ }
+ .table th{
+    background: #eee;
+ }
+
+ .form-group{
+    clear: both;
+ }
+
+ .form-group label{
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    display: block;
+    padding: 15px 0;
+    float: left;
+    width: 30%;
+    font-weight: bold;
+ }
+ .form-group .input{
+    display: block;
+    padding: 15px 0;
+    float: left;
+    width: 50%;
+ }
+
+ input[type=radio]{ 
+    width: 50px
+ }
+
+ .tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.tombol{
+    text-align: left;
+    display: inline-block;
+    max-width: 150px;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    background: #038ade;
+    cursor: pointer;
+ }
+
+ .hero-img {
+     height: 100px;
+     width: 100px;
+ }
