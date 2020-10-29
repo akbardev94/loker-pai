@@ -1,6 +1,6 @@
 <?php
 // konfigurasi database
-$host       =   "localhost";
+$host       =   "https://databases-auth.000webhost.com/";
 $user       =   "id15260635_lokerpai";
 $password   =   "oQU95gV0Xc_tI=IF";
 $database   =   "id15260635_loker";
